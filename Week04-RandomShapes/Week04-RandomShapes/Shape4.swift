@@ -13,9 +13,13 @@ struct Shape4: View {
         VStack {
             Text("Shape4").font(.largeTitle).bold()
             Image(uiImage: uiImage)
-            Button(action: buttonAction) {
-                Text("Next")
+//            Button(action: buttonAction) {
+//                Text("Next")
+//            }
+            Button("Next") {
+                buttonAction()
             }
+            .font(.largeTitle).bold()
         }
         .onAppear {
             randomColorIndex();

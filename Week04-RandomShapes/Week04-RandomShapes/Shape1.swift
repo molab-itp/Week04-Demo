@@ -20,6 +20,9 @@ struct Shape1: View {
     Shape1()
 }
 
+// source https://github.com/molab-itp/03-UIGraphics-View
+// source https://github.com/molab-itp/01-UIRender-playground
+
 func renderShape1() -> UIImage {
     let width = 400
     let height = 400
