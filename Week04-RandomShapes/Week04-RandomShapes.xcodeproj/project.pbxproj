@@ -17,6 +17,7 @@
 		AB06C1212B794E7D001E0DDD /* renderGraphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C1202B794E7D001E0DDD /* renderGraphics.swift */; };
 		AB06C1232B7974E2001E0DDD /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C1222B7974E2001E0DDD /* Graphics.swift */; };
 		AB06C1252B7979D0001E0DDD /* Shape4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C1242B7979D0001E0DDD /* Shape4.swift */; };
+		AB7C10432CA69D3D00BCC7DB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AB7C10422CA69D3D00BCC7DB /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		AB06C1202B794E7D001E0DDD /* renderGraphics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = renderGraphics.swift; sourceTree = "<group>"; };
 		AB06C1222B7974E2001E0DDD /* Graphics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphics.swift; sourceTree = "<group>"; };
 		AB06C1242B7979D0001E0DDD /* Shape4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape4.swift; sourceTree = "<group>"; };
+		AB7C10422CA69D3D00BCC7DB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		AB06C1002B794AAF001E0DDD = {
 			isa = PBXGroup;
 			children = (
+				AB7C10422CA69D3D00BCC7DB /* README.md */,
 				AB06C10B2B794AAF001E0DDD /* Week04-RandomShapes */,
 				AB06C10A2B794AAF001E0DDD /* Products */,
 			);
@@ -143,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB7C10432CA69D3D00BCC7DB /* README.md in Resources */,
 				AB06C1142B794AB0001E0DDD /* Preview Assets.xcassets in Resources */,
 				AB06C1112B794AB0001E0DDD /* Assets.xcassets in Resources */,
 			);
