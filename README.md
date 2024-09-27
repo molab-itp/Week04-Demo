@@ -4,7 +4,7 @@
 
 - Tab navigation used visit pages Shape1 ... Shape4 
 
-- .gitignore
+- .gitignore setting to keep annoying files out of repo
 ```
 .DS_Store
 **/xcuserdata/

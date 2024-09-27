@@ -30,6 +30,11 @@ struct MainView: View {
                 .tabItem {
                     Label("Shape4", image: "Shape4" )
                 }
+            
+            Shape5()
+                .tabItem {
+                    Label("Shape5", image: "Shape5" )
+                }
 
         }
         
