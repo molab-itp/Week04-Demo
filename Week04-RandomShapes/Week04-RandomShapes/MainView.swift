@@ -33,7 +33,7 @@ struct MainView: View {
             
             Shape5()
                 .tabItem {
-                    Label("Shape5", image: "Shape5" )
+                    Label("Shape5", image: "Shape6-icon" )
                 }
 
         }

@@ -21,7 +21,7 @@ struct Shape4: View {
         .onReceive(timer) { _ in
             // Block gets called when timer updates.
             startAngle += CGFloat.pi * 2.0 / 360.0
-//            print("startAngle", startAngle)
+            print("startAngle", startAngle)
         }
         .onAppear() {
             print("onAppear startAngle", startAngle)
