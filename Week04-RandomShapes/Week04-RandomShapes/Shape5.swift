@@ -16,7 +16,7 @@ struct Shape5: View {
 //            Button(action: buttonAction) {
 //                Text("Next")
 //            }
-            Button("Next") {
+            Button("Shuffle") {
                 buttonAction()
             }
             .font(.largeTitle).bold()
