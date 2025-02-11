@@ -66,7 +66,7 @@ func renderShape2(_ astartAngle: CGFloat) -> UIImage {
                    endAngle: endAngle-marginAngle, clockwise: false)
         cgx.drawPath(using: .fillStroke )
 
-        let dx = box.width / 5
+        let dx = box.width / 5 
         ibox = ibox.insetBy(dx: dx, dy: dx)
         UIColor.black.setFill()
         cgx.addEllipse(in: ibox)

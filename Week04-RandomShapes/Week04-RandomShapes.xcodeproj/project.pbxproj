@@ -17,6 +17,7 @@
 		AB06C1212B794E7D001E0DDD /* renderGraphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C1202B794E7D001E0DDD /* renderGraphics.swift */; };
 		AB06C1232B7974E2001E0DDD /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C1222B7974E2001E0DDD /* Graphics.swift */; };
 		AB06C1252B7979D0001E0DDD /* Shape4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C1242B7979D0001E0DDD /* Shape4.swift */; };
+		AB451B692D5AC57300E2AC64 /* Shape2a.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB451B682D5AC57300E2AC64 /* Shape2a.swift */; };
 		AB7C10432CA69D3D00BCC7DB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AB7C10422CA69D3D00BCC7DB /* README.md */; };
 		AB7C10452CA6A01600BCC7DB /* Shape5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7C10442CA6A01600BCC7DB /* Shape5.swift */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,7 @@
 		AB06C1202B794E7D001E0DDD /* renderGraphics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = renderGraphics.swift; sourceTree = "<group>"; };
 		AB06C1222B7974E2001E0DDD /* Graphics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphics.swift; sourceTree = "<group>"; };
 		AB06C1242B7979D0001E0DDD /* Shape4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape4.swift; sourceTree = "<group>"; };
+		AB451B682D5AC57300E2AC64 /* Shape2a.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape2a.swift; sourceTree = "<group>"; };
 		AB7C10422CA69D3D00BCC7DB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AB7C10442CA6A01600BCC7DB /* Shape5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +74,7 @@
 				AB06C10E2B794AAF001E0DDD /* MainView.swift */,
 				AB06C11A2B794D85001E0DDD /* Shape1.swift */,
 				AB06C11C2B794DA2001E0DDD /* Shape2.swift */,
+				AB451B682D5AC57300E2AC64 /* Shape2a.swift */,
 				AB06C11E2B794DCB001E0DDD /* Shape3.swift */,
 				AB06C1242B7979D0001E0DDD /* Shape4.swift */,
 				AB7C10442CA6A01600BCC7DB /* Shape5.swift */,
@@ -166,6 +169,7 @@
 				AB06C10D2B794AAF001E0DDD /* Week04_RandomShapesApp.swift in Sources */,
 				AB7C10452CA6A01600BCC7DB /* Shape5.swift in Sources */,
 				AB06C1212B794E7D001E0DDD /* renderGraphics.swift in Sources */,
+				AB451B692D5AC57300E2AC64 /* Shape2a.swift in Sources */,
 				AB06C1232B7974E2001E0DDD /* Graphics.swift in Sources */,
 				AB06C1252B7979D0001E0DDD /* Shape4.swift in Sources */,
 				AB06C11F2B794DCB001E0DDD /* Shape3.swift in Sources */,

@@ -22,3 +22,11 @@ extension UIColor {
 // RGB(187, 165, 61)
 // Chrome Gold
 // https://color-term.com/color/lego-chrome-gold-bba53d/
+
+import SwiftUI
+
+extension Color {
+  static var gold: Color {
+    .init(UIColor.gold)
+  }
+}
