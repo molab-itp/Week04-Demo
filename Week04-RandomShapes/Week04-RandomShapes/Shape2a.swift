@@ -4,7 +4,7 @@
 //
 //  Created by jht2 on 2/10/25.
 //
-// Canvas versino of Shape2
+// Canvas version of Shape2
 
 import SwiftUI
 
