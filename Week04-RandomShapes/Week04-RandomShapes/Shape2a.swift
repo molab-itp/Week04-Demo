@@ -78,8 +78,8 @@ struct Shape2View: View {
     var path = Path()
     path.move(to: center)
     path.addArc(center: center, radius: radius,
-                startAngle: Angle(radians: startAngle),
-                endAngle: Angle(radians: endAngle),
+                startAngle: .radians(startAngle),
+                endAngle: .radians(endAngle),
                 clockwise: false)
     return path
   }
