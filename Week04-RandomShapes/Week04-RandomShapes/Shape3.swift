@@ -13,7 +13,7 @@ struct Shape3: View {
   var body: some View {
     VStack {
       Text("Shape3").font(.largeTitle).bold()
-      Image(uiImage: renderShape2(startAngle))
+      Image(uiImage: renderArcs(startAngle))
       //          Shape2View(astartAngle: startAngle)
       Slider(value: $startAngle, in: 0.0 ... CGFloat.pi * 2)
     }

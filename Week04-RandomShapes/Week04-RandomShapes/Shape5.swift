@@ -57,7 +57,7 @@ func renderShape4() -> UIImage {
     
     while true {
       
-      //            nextColor().setFill();
+      // nextColor().setFill();
       if let color = myColors.randomElement() {
         color.setFill();
       }

@@ -13,7 +13,7 @@ struct Shape1: View {
       VStack {
         Text("Shape1").font(.largeTitle).bold()
         Image(uiImage:
-                renderShape1(
+                renderCircles(
                   width: geo.size.width,
                   height: geo.size.height))
       }
@@ -29,7 +29,7 @@ struct Shape1: View {
 // source https://github.com/molab-itp/03-UIGraphics-View
 // source https://github.com/molab-itp/01-UIRender-playground
 
-func renderShape1(width: CGFloat, height: CGFloat) -> UIImage {
+func renderCircles(width: CGFloat, height: CGFloat) -> UIImage {
   //    let width = 400
   //    let height = 400
   let sz = CGSize(width: width, height: height)

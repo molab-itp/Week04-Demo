@@ -11,7 +11,7 @@ struct Shape2: View {
   var body: some View {
     VStack {
       Text("Shape2").font(.largeTitle).bold()
-      Image(uiImage: renderShape2(0.0))
+      Image(uiImage: renderArcs(0.0))
     }
   }
 }
@@ -20,9 +20,9 @@ struct Shape2: View {
   Shape2()
 }
 
-func renderShape2(_ astartAngle: CGFloat) -> UIImage {
-  let width = 400
-  let height = 400
+func renderArcs(_ astartAngle: CGFloat,
+                width:Int = 400,
+                height:Int = 400) -> UIImage {
   let sz = CGSize(width: width, height: height)
   let renderer = UIGraphicsImageRenderer(size: sz)
   let image = renderer.image { context in
