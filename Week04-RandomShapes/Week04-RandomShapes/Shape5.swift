@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Shape5: View {
-  @State var uiImage:UIImage = renderShape4();
+  @State var uiImage:UIImage = renderColorGrid();
   var body: some View {
     VStack {
       Text("Shape5").font(.largeTitle).bold()
@@ -28,7 +28,7 @@ struct Shape5: View {
   
   func buttonAction() {
     randomColorIndex();
-    uiImage = renderShape4()
+    uiImage = renderColorGrid()
   }
 }
 
@@ -36,7 +36,7 @@ struct Shape5: View {
   Shape5()
 }
 
-func renderShape4() -> UIImage {
+func renderColorGrid() -> UIImage {
   let width = 400
   let height = 400
   let sz = CGSize(width: width, height: height)

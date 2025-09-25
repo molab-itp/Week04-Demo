@@ -7,9 +7,11 @@
 
 import UIKit
 
+// reference code for using UIGraphicsImageRenderer
+//
 // from https://github.com/molab-itp/01-UIRender-playground
 
-func renderGraphics(_ width:Int, _ height:Int) -> UIImage {
+func renderGraphics(width:Int, height:Int) -> UIImage {
   print("renderGraphics width=\(width) height=\(height)")
   let len = width / 4;
   let hi = height;

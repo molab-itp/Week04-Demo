@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+// GeometryReader for getting screen size
+// where is renderGraphics defined?
+
 struct Shape1: View {
   var body: some View {
     GeometryReader { geo in
@@ -15,7 +18,11 @@ struct Shape1: View {
         Image(uiImage:
                 renderCircles(
                   width: geo.size.width,
-                  height: geo.size.height))
+                  height: geo.size.height/2))
+        Image(uiImage:
+                renderGraphics(
+                  width: Int(geo.size.width),
+                  height: Int(geo.size.height/2)))
       }
     }
   }
@@ -28,6 +35,8 @@ struct Shape1: View {
 
 // source https://github.com/molab-itp/03-UIGraphics-View
 // source https://github.com/molab-itp/01-UIRender-playground
+
+// where is UIColor.gold defined?
 
 func renderCircles(width: CGFloat, height: CGFloat) -> UIImage {
   //    let width = 400
