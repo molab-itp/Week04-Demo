@@ -8,10 +8,10 @@
 
 import SwiftUI
 
-struct Shape2a: View {
+struct Shape2_Canvas: View {
   var body: some View {
     VStack {
-      Text("Shape2a").font(.largeTitle).bold()
+      Text("Shape2_Canvas").font(.largeTitle).bold()
       // Image(uiImage: renderShape2(0.0))
       Shape2View(astartAngle:  0.0)
     }
@@ -19,7 +19,7 @@ struct Shape2a: View {
 }
 
 #Preview {
-  Shape2a()
+  Shape2_Canvas()
 }
 
 struct Shape2View: View {
