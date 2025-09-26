@@ -15,6 +15,7 @@ struct Shape1: View {
     GeometryReader { geo in
       VStack {
         Text("Shape1").font(.largeTitle).bold()
+        
         Image(uiImage:
                 renderCircles(
                   width: geo.size.width,
